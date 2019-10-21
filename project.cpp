@@ -34,7 +34,7 @@ void startError()
   {	 system("CLS");
      cout << "ERROR -- You did not enter an integer"<<endl;
      cin.clear();
-     cin.ignore();
+     cin.ignore();	//ignoring
   }
 }
 bool isValidCourseCode(string courseCode)
