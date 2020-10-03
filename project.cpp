@@ -511,6 +511,9 @@ bool LoadStudents(string RegNoList[],string StdNameList[],string StdCourseList[]
 
 void menu()
 {
+	cout<<"\t\t**************************************************************"<<endl;
+	cout<<"\t\t\tWellcome To Universty Mangement System"
+	cout<<"\t\t**************************************************************"<<endl;
     cout << "\n\nYou have successfully logged into the system" << endl;
     cout << "Choose the following option" << endl;
     cout << "1     Add Course" << endl;
